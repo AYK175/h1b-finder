@@ -1,8 +1,7 @@
 # H-1B Sponsor-First Job Discovery — Build Plan
 
 **Audience:** an agentic coding model (Claude Fable) executing this end-to-end.
-**Owner:** Abdullah — international student, F-1/OPT, MS Data Analytics Engineering, targeting AI/ML/DS roles.
-**Deadline that matters:** FY2028 H-1B registration, ~March 2027. Cap-exempt employers have no deadline — they file year-round. That asymmetry drives the entire ranking.
+**Owner:** Abdullah Y. Khan
 
 ---
 
