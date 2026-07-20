@@ -1,0 +1,120 @@
+{
+  "note": "download_date is the local file mtime, not a verified original-download timestamp \u2014 these files predated this ingest session and were not re-downloaded by this pipeline. source_url was independently confirmed reachable (HTTP 200, direct curl) at manifest-creation time for the FY2025 files; content was NOT re-fetched to diff against the local copy. See per-file 'url_status' notes.",
+  "generated_at": "2026-07-18T14:00:00",
+  "files": [
+    {
+      "filename": "LCA_Disclosure_Data_FY2025_Q1.xlsx",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 1,
+      "source_url": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/LCA_Disclosure_Data_FY2025_Q1.xlsx",
+      "url_status": "confirmed reachable (HTTP 200) 2026-07-18",
+      "sha256": "17c08eccf8b2d543f502553f502b8165d85e3e93d86de6f7dbaed3e87c86911d",
+      "download_date": "2026-07-18T11:13:03",
+      "rows": 106758,
+      "decision_date_range": [
+        "2024-10-01",
+        "2024-12-31"
+      ]
+    },
+    {
+      "filename": "LCA_Disclosure_Data_FY2025_Q2.xlsx",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 2,
+      "source_url": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/LCA_Disclosure_Data_FY2025_Q2.xlsx",
+      "url_status": "confirmed reachable (HTTP 200) 2026-07-18",
+      "sha256": "bc5aaf90fa89ee2666757fe8b065ae95a8b40dde785df04adba226b4fb388d30",
+      "download_date": "2026-07-18T11:13:23",
+      "rows": 130794,
+      "decision_date_range": [
+        "2025-01-01",
+        "2025-03-31"
+      ]
+    },
+    {
+      "filename": "LCA_Disclosure_Data_FY2025_Q3.xlsx",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 3,
+      "source_url": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/LCA_Disclosure_Data_FY2025_Q3.xlsx",
+      "url_status": "confirmed reachable (HTTP 200) 2026-07-18",
+      "sha256": "fcabedf38c8cc3036334b7d38981878d29afb3d8ad7455ec12f127ed091a0d5e",
+      "download_date": "2026-07-18T11:13:44",
+      "rows": 231668,
+      "decision_date_range": [
+        "2025-04-01",
+        "2025-06-30"
+      ]
+    },
+    {
+      "filename": "LCA_Disclosure_Data_FY2025_Q4.xlsx",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 4,
+      "source_url": "https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/LCA_Disclosure_Data_FY2025_Q4.xlsx",
+      "url_status": "confirmed reachable (HTTP 200) 2026-07-18",
+      "sha256": "81ebf97d471014b91ae685cb7eb505369d7c80af2de67944ddd7531814976370",
+      "download_date": "2026-07-18T11:13:45",
+      "rows": 117824,
+      "decision_date_range": [
+        "2025-07-01",
+        "2025-09-30"
+      ]
+    },
+    {
+      "filename": "LCA_Dislclosure_Data_FY2026_Q2.xlsx",
+      "fiscal_year": 2026,
+      "fiscal_quarter": 2,
+      "source_url": null,
+      "url_status": "UNRESOLVED \u2014 the FY2025-pattern URL (https://www.dol.gov/sites/dolgov/files/ETA/oflc/pdfs/LCA_Disclosure_Data_FY2026_Q2.xlsx) 404s, and the on-disk filename has a typo ('Dislclosure') suggesting a manual rename after download. Re-derive from https://www.dol.gov/agencies/eta/foreign-labor/performance on next visit.",
+      "sha256": "29831c8e29bcc0e0ee91f51709e9fac254bb0e707d61804670405255893ed6c4",
+      "download_date": "2026-07-18T11:08:52",
+      "rows": 208610,
+      "decision_date_range": [
+        "2025-10-01",
+        "2026-03-31"
+      ],
+      "note": "Spans 6 months (two quarters), not one \u2014 unlike the FY2025 files, which are discrete non-overlapping single-quarter extracts. See CLAUDE.md landmine on cumulative-file assumption."
+    },
+    {
+      "filename": "PERM_Disclosure_Data_FY2025_Q4.xlsx",
+      "fiscal_year": 2025,
+      "source_url": null,
+      "url_status": "predated this ingest session, not re-downloaded or verified reachable \u2014 see LCA files' note for the same caveat pattern",
+      "sha256": "33554317b020289edb4e34d40ede6f9cf3c3ecbdb7334b7398eb9b7dbb44edbe",
+      "download_date": "2026-07-19T05:02:00",
+      "rows": 147056,
+      "note": "Reporting period Oct 1 2024 - Sep 30 2025 per record layout PDF. 'FY2025_Q4' in the filename is misleading \u2014 despite the name this is a FULL FISCAL YEAR extract, not a single quarter."
+    },
+    {
+      "filename": "PERM_Disclosure_Data_FY2026_Q2.xlsx",
+      "fiscal_year": 2026,
+      "source_url": null,
+      "url_status": "predated this ingest session, not re-downloaded or verified reachable",
+      "sha256": "4aed1eb50f735d16a8874213ca714c51e2275b135c160630e02ad3971a58e1bf",
+      "download_date": "2026-07-19T05:02:00",
+      "rows": 60096,
+      "note": "Reporting period Oct 1 2025 - Mar 31 2026 (two quarters, like the equivalent LCA FY2026_Q2 file). Non-overlapping with the FY2025_Q4 file above (Sep 30 2025 boundary)."
+    }
+  ],
+  "record_layout_pdfs": [
+    {
+      "filename": "LCA_Record_Layout_FY2025_Q4.pdf",
+      "sha256": "cfb76ee122becffb860e71aa6e2f061ba5f8f5afee41690095ab8d8a1af1b18f",
+      "applies_to": "FY2025 Q1-Q4 (verified identical column set across all four files)"
+    },
+    {
+      "filename": "LCA_Record_Layout_FY2026_Q2.pdf",
+      "sha256": "91d80f80b791f0c687e610a450660134fab7a6bec797c1eeec8aa7a9003fe062",
+      "applies_to": "FY2026 Q2"
+    },
+    {
+      "filename": "PERM_Record_Layout_FY2025_Q4.pdf",
+      "sha256": "6d2a8781fadea0fd6af9266bd553892bee2fc13cb073a3b305949384bb9e9c32",
+      "applies_to": "FY2025_Q4 PERM file above"
+    },
+    {
+      "filename": "PERM_Record_Layout_FY2026_Q2.pdf",
+      "sha256": "54b155b64b6dafb33edf610e5c954691c4f88b076d3bc9b3119960da531f3d7d",
+      "applies_to": "FY2026_Q2 PERM file above",
+      "note": "Byte-for-byte identical field layout to the FY2025_Q4 PERM record layout \u2014 both are post-June-2023-revision 'new form' extracts. No old/new ETA-9089 schema split found between the two PERM files actually on disk, despite that split existing historically in DOL's PERM data generally."
+    }
+  ]
+}

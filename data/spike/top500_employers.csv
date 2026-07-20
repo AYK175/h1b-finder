@@ -1,0 +1,501 @@
+rank,EMPLOYER_NAME,lca_certified_count,employer_state
+1,Amazon.com Services LLC,11500,WA
+2,Google LLC,9208,CA
+3,Microsoft Corporation,8849,WA
+4,"Meta Platforms, Inc",6658,CA
+5,Apple Inc.,4555,CA
+6,"WAL-MART ASSOCIATES, INC.",4138,AR
+7,JPMorgan Chase & Co.,3698,IL
+8,Deloitte Consulting LLP,3445,PA
+9,"Amazon Web Services, Inc.",3071,WA
+10,"Amazon Development Center U.S., Inc.",2565,WA
+11,"Fidelity Technology Group, LLC d/b/a Fidelity Investments",2565,MA
+12,Ernst & Young U.S. LLP,2088,NJ
+13,"COMPUNNEL SOFTWARE GROUP, INC",1818,NJ
+14,"Salesforce, Inc.",1684,CA
+15,Adobe Inc.,1462,CA
+16,AMAZON.COM SERVICES LLC,1398,VA
+17,NVIDIA Corporation,1368,CA
+18,"PayPal, Inc.",1351,CA
+19,CAPGEMINI AMERICA INC,1231,IL
+20,"Citibank, N.A.",1224,NY
+21,"Oracle America, Inc.",1179,TX
+22,"Capital One Services, LLC",1142,VA
+23,Intel Corporation ,1048,CA
+24,"Qualcomm Technologies, Inc.",930,CA
+25,"RANDSTAD DIGITAL, LLC",895,MA
+26,IBM Corporation,841,NC
+27,"Uber Technologies, Inc.",815,CA
+28,KFORCE INC. ,809,FL
+29,"Tesla, Inc.",777,TX
+30,Federal Express Corporation,777,TN
+31,"Cisco Systems, Inc.",756,CA
+32,LTIMindtree Limited,716,NJ
+33,FORD MOTOR COMPANY,698,MI
+34,COGNIZANT TECHNOLOGY SOLUTIONS US CORP,682,TX
+35,LinkedIn Corporation,679,CA
+36,Morgan Stanley Services Group Inc.,674,NY
+37,BANK OF AMERICA N.A.,670,NC
+38,eBay Inc.,668,CA
+39,TikTok Inc.,653,CA
+40,LINKEDIN CORPORATION,629,CA
+41,"Optum Services, Inc. ",618,MN
+42,Government Employee Insurance Company (GEICO),597,MD
+43,U.S. Bank National Association,596,MN
+44,Capgemini America Inc,593,IL
+45,GOLDMAN SACHS SERVICES LLC,589,NY
+46,"Capital One, National Association",579,VA
+47,CGI Technologies and Solutions Inc.,575,VA
+48,"Mastercard Technologies, LLC",563,MO
+49,"Expedia, Inc. ",561,WA
+50,"Charles Schwab & Company, Inc.",559,TX
+51,"AT&T SERVICES, INC.",526,TX
+52,ByteDance Inc.,526,CA
+53,"ServiceNow, Inc.",518,CA
+54,"Comcast Cable Communications, LLC",516,PA
+55,"ADP Technology Services, Inc. ",509,NJ
+56,Barclays Services Corp. ,508,NY
+57,"American Express Travel Related Services Company, Inc.",507,NY
+58,CVS Shared Services Resources LLC,501,RI
+59,Caremark LLC,497,RI
+60,"Palo Alto Networks, Inc.",467,CA
+61,"DoorDash, Inc.",460,CA
+62,GOLDMAN SACHS & CO. LLC,455,NY
+63,General Motors,452,MI
+64,"Elevance Health, Inc.",450,IN
+65,"Pinterest, Inc.",449,CA
+66,CVS Pharmacy Inc.,449,RI
+67,"Amazon Data Services, Inc",446,WA
+68,Visa Technology & Operations LLC,443,CA
+69,"Lowe's Companies, Inc.",434,NC
+70,"Fidelity Technology Group, LLC",430,MA
+71,Bloomberg L.P.,418,NY
+72,"People Tech Group, Inc",415,WA
+73,Intuit Inc.,410,CA
+74,"INNOVA SOLUTIONS, INC.",408,GA
+75,SNAP INC.,405,CA
+76,Aetna Resources LLC,398,RI
+77,"Mastech Digital Technologies, Inc.",393,PA
+78,"WELLS FARGO BANK, N.A.",390,AZ
+79,"Workday, Inc.",385,CA
+80,DFS Corporate Services LLC,383,IL
+81,"AMAZON WEB SERVICES, INC.",381,VA
+82,"TECH MAHINDRA (AMERICAS), INC",379,NJ
+83,"Infinite Computer Solutions, Inc.",378,MD
+84,"Netflix, Inc.",359,CA
+85,"T-Mobile USA, Inc.",357,WA
+86,"FIS Management Services, LLC",351,NY
+87,"The MathWorks, Inc.",349,MA
+88,BYTEDANCE INC.,346,CA
+89,"Atlassian US, Inc.",330,CA
+90,Cigna-Evernorth Services Inc.,328,MO
+91,"Medline Industries, LP.",327,IL
+92,TT Commerce & Global Services LLC,321,CA
+93,UST Global Inc,320,CA
+94,"Fiserv Solutions, LLC",320,WI
+95,"Advanced Micro Devices, Inc.",313,CA
+96,Snowflake Inc.,310,CA
+97,"American Airlines, Inc.",310,TX
+98,"Wells Fargo Bank, N.A.",304,SD
+99,Wayfair LLC,303,MA
+100,U.S. BANK NATIONAL ASSOCIATION,294,MN
+101,CitiusTech Inc.,293,NJ
+102,Visa U.S.A. Inc.,292,CA
+103,"Zoom Communications, Inc.",291,CA
+104,"Databricks, Inc.",290,CA
+105,Verizon Data Services LLC,288,NJ
+106,Truist Bank,285,NC
+107,Home Depot Management Company LLC,275,GA
+108,UBS Business Solutions US LLC,272,TN
+109,Yahoo Holdings Inc.,270,NY
+110,PRICEWATERHOUSECOOPERS ADVISORY SERVICES LLC,269,FL
+111,Waymo LLC,266,CA
+112,United Services Automobile Association,258,TX
+113,Tata Consultancy Services Limited,257,MD
+114,"Charter Communications, Inc.",257,MO
+115,Charter Communications Inc. ,256,MO
+116,"Chewy, Inc.",255,FL
+117,Humana Inc.,254,KY
+118,Eli Lilly and Company,253,IN
+119,"RELX, Inc.",252,GA
+120,Roblox Corporation,252,CA
+121,"Insight Global, LLC",250,GA
+122,NATSOFT CORPORATION,249,NJ
+123,State Street Bank and Trust Company,248,MA
+124,"BlackRock Financial Management, Inc.",247,NJ
+125,Concentrix CVG Customer Management Group Inc.,238,OH
+126,"NIKE, Inc.",237,OR
+127,Coforge Limited,237,NJ
+128,TikTok U.S. Data Security Inc.,235,CA
+129,"ExlService.com, LLC",232,NY
+130,Equifax Inc.,231,GA
+131,PALANTIR TECHNOLOGIES INC.,227,CO
+132,HCL GLOBAL SYSTEMS INC,226,MI
+133,MSR TECHNOLOGY GROUP LLC,222,DE
+134,"Stripe, Inc.",218,CA
+135,"Social Finance, LLC",216,CA
+136,GOLDMAN SACHS BANK USA,213,NY
+137,Siemens Industry Software Inc.,211,TX
+138,"Target Enterprise, Inc.",211,MN
+139,TATA CONSULTANCY SERVICES LIMITED,211,MD
+140,"AMAZON DEVELOPMENT CENTER U.S., INC. ",210,VA
+141,SAGE IT INC,210,TX
+142,Accenture LLP,208,IL
+143,"Artech, LLC",205,NJ
+144,Populus Group LLC,205,MI
+145,"Brillio, LLC",205,NY
+146,Navy Federal Credit Union,202,VA
+147,Hewlett Packard Enterprise Company,202,TX
+148,Amgen Inc.,201,CA
+149,"The Vanguard Group, Inc.",200,PA
+150,Rockwell Collins Inc.,199,IA
+151,"Hexaware Technologies, Inc.",198,NJ
+152,Rocket Limited Partnership,198,MI
+153,"Citizens Financial Group, Inc.",197,RI
+154,"INTRAEDGE, INC.",196,AZ
+155,"V-Soft Consulting Group, INC",196,KY
+156,"AIRBNB, INC.",196,CA
+157,"McKinsey & Company, Inc. United States",195,NY
+158,"NetApp, Inc.",188,CA
+159,Caterpillar Inc.,186,TX
+160,"Nutanix, Inc.",184,CA
+161,"ERP Analysts, Inc.",182,OH
+162,"PHOTON INFOTECH, INC.",182,TX
+163,VISTA APPLIED SOLUTIONS GROUP INC,181,VA
+164,"Autodesk, Inc.",181,CA
+165,First Citizens Bank and Trust Co.,180,NC
+166,Mphasis Corporation,179,NY
+167,"Akamai Technologies, Inc.",179,MA
+168,"Perficient, Inc.",178,MO
+169,"Nordstrom, Inc.",172,WA
+170,"DB Global Technology, Inc.",171,NC
+171,"Synechron, Inc.",171,NY
+172,"Avco Consulting, Inc.",171,MA
+173,"Block, Inc.",170,CA
+174,"Coinbase, Inc.",170,CA
+175,"Intercontinental Exchange Holdings, Inc.",169,GA
+176,Deere & Company,169,IL
+177,"HubSpot, Inc.",169,MA
+178,GlobalLogic Inc.,168,CA
+179,"Indeed, Inc.",168,TX
+180,HTC GLOBAL SERVICES INC.,167,MI
+181,"Slalom, Inc.",167,WA
+182,Costco Wholesale Corporation,166,WA
+183,Cummins Inc.,165,TN
+184,VMware LLC,160,CA
+185,"Experis US, LLC",160,WI
+186,SLK AMERICA INC,158,OH
+187,"Robinhood Markets, Inc.",150,CA
+188,"AUDIBLE, INC.",149,NJ
+189,"J.B. Hunt Transport, Inc.",148,AR
+190,Synechron Inc.,147,NY
+191,HP Inc.,147,TX
+192,Federal Home Loan Mortgage Corporation,147,VA
+193,Genpact LLC,147,NJ
+194,"Twilio, Inc.",145,CA
+195,MPG Operations LLC,144,NY
+196,Barclays Services LLC ,144,NY
+197,"Lucid USA, Inc.",144,CA
+198,"Arista Networks, Inc.",143,CA
+199,HEALTH CARE SERVICE CORPORATION,143,IL
+200,Collabera LLC,141,NJ
+201,SONY INTERACTIVE ENTERTAINMENT LLC,139,CA
+202,"DENKEN SOLUTIONS, INC.",139,CA
+203,"SYSTEM SOFT TECHNOLOGIES, LLC",136,FL
+204,"Moody's Analytics, Inc.",136,NY
+205,"Zillow, Inc.",136,WA
+206,Epsilon Data Management LLC,135,TX
+207,"Ascendion, Inc. (Formerly known as Collabera, Inc.)",135,NJ
+208,"Fujitsu North America, Inc. ",134,TX
+209,PIONEER CONSULTING SERVICES LLC,134,NJ
+210,"Worldpay, LLC ",133,OH
+211,"United Wholesale Mortgage, LLC",133,MI
+212,The Bank of New York Mellon,132,PA
+213,"Iris Software, Inc",132,NJ
+214,"Paycom Payroll, LLC",131,OK
+215,"ASML US, LP",131,AZ
+216,"DIGIPULSE TECHNOLOGIES, INC.",131,NJ
+217,"Qualcomm Innovation Center, Inc. ",131,CA
+218,Palayekar Companies Inc,130,NJ
+219,Tredence Inc. ,130,CA
+220,"Zscaler, Inc.",130,CA
+221,"Anthropic, PBC",129,CA
+222,EMC Corporation,128,TX
+223,"OpenAI OpCo, LLC",128,CA
+224,MURTHY LAW FIRM,127,WY
+225,"PURE STORAGE, INC.",127,CA
+226,The Depository Trust & Clearing Corporation,127,NJ
+227,"Staples, Inc.",126,MA
+228,"MONGODB, INC.",125,NY
+229,The Northern Trust Company,125,IL
+230,"SPOTIFY USA, INC.",124,NY
+231,"Strategic Systems, Inc.",124,OH
+232,"MITCHELL/MARTIN, INC.",123,NY
+233,Coupang Global LLC,123,CA
+234,"Boston Consulting Group, Inc.",123,MA
+235,The Prudential Insurance Company of America,122,NJ
+236,Collaborate Solutions Inc.,122,MA
+237,McKesson Corporation,122,TX
+238,"Centene Management Company, LLC",122,MO
+239,"FedEx Dataworks, Inc. ",121,TN
+240,LPL Financial LLC,121,SC
+241,"F5, Inc.",120,WA
+242,Deloitte Tax LLP,120,PA
+243,"Rivian and VW Group Technology, LLC",120,CA
+244,Amazon Advertising LLC,120,WA
+245,Northwestern Mutual Life Insurance Company,120,WI
+246,"Yash Technologies, Inc",118,IL
+247,Discover Products Inc,118,IL
+248,"Insurance Services Office, Inc",117,NJ
+249,Dell USA L.P.,117,TX
+250,Idexcel Inc,116,VA
+251,"BEST BUY CO., INC.",116,MN
+252,Government Employees Insurance Company (GEICO),116,MD
+253,"Antra, Inc.",116,VA
+254,"Farmers Group, Inc.",116,CA
+255,"Confluent, Inc.",116,CA
+256,Mastercard International Incorporated,115,NY
+257,"Delta Air Lines, Inc.",115,GA
+258,"Qualcomm Atheros, Inc. ",115,CA
+259,Southwest Airlines Co.,114,TX
+260,"MetLife Group, Inc.",113,NY
+261,"Pyramid Consulting, Inc. ",113,GA
+262,"Fortinet, Inc.",113,CA
+263,"Arm, Inc.",111,CA
+264,CyberSource Corporation,111,CA
+265,Bristol-Myers Squibb Company,111,NJ
+266,"ICE MORTGAGE TECHNOLOGY, INC.",111,GA
+267,Beacon Hill Solutions Group LLC,110,MA
+268,COGNIER INC,110,GA
+269,"Juniper Networks, Inc.",109,CA
+270,"Cadence Design Systems, Inc.",109,CA
+271,"SAP Labs, LLC",109,PA
+272,"MIRACLE SOFTWARE SYSTEMS, INC.",109,MI
+273,Veeva Systems Inc.,108,CA
+274,"Cotiviti, Inc.",108,UT
+275,Docusign Inc. ,108,CA
+276,"Asurion, LLC",107,TN
+277,Computer Sciences Corporation,106,VA
+278,M&T Bank,106,NY
+279,DocuSign Inc. ,105,CA
+280,Birlasoft Inc,104,NJ
+281,Namitus Technologies Inc,104,TX
+282,OneMain General Services Corporation,103,IN
+283,Liberty Mutual Technology Group Inc.,103,MA
+284,Cardinal Health ,103,OH
+285,"Birlasoft Solutions, Inc.",102,NJ
+286,Nokia of America Corporation,102,NJ
+287,"TAVANT TECHNOLOGIES, INC.",102,CA
+288,"Raymond James & Associates, Inc.",101,FL
+289,TransUnion LLC,100,IL
+290,"LexisNexis Risk Solutions FL, Inc.",100,GA
+291,KPMG LLP,99,TX
+292,"Rubrik, Inc.",99,CA
+293,"Roku, Inc.",99,CA
+294,"The PNC Financial Services Group, Inc.",99,PA
+295,"Sapphire Software Solutions, Inc.",99,VA
+296,"Regeneron Pharmaceuticals, Inc.",98,NY
+297,EPAM Systems Inc.,97,PA
+298,HCA Management Services LP,97,TN
+299,"PERSISTENT SYSTEMS, INC.",97,CA
+300,"Thermo Fisher Scientific, Inc. ",96,MA
+301,Hartford Fire Insurance Company,96,CT
+302,"Publix Super Markets, Inc.",96,FL
+303,SYNECHRON INC,95,NY
+304,"LYFT, Inc.",95,CA
+305,"Samsung Electronics America, Inc.",94,NJ
+306,"Amdocs, Inc.",94,MO
+307,"7-Eleven, Inc.",94,TX
+308,Hitachi Digital Services LLC,94,CA
+309,"Reddit, Inc. ",94,CA
+310,Merck Sharp & Dohme LLC,94,NJ
+311,"CA, Inc.",94,CA
+312,"Diaspark, Inc.",93,NJ
+313,Nisum Technologies Inc.,93,CA
+314,"GoDaddy.com, LLC",93,AZ
+315,ACE American Insurance Company ,93,PA
+316,"Rocket Mortgage, LLC",92,MI
+317,"Infovision, Inc.",92,TX
+318,"BROADRIDGE FINANCIAL SOLUTIONS, INC.",92,NJ
+319,"Docusign, Inc.",92,CA
+320,SIRIUS XM RADIO LLC,91,NY
+321,E-GIANTS TECHNOLOGIES LLC,91,IA
+322,"Qualtrics, LLC",91,UT
+323,SEI Investments Company,91,PA
+324,Elite IT Technologies LLC,90,FL
+325,"Avani Technology Solutions, Inc.",90,NY
+326,"Axon Enterprise, Inc.",90,AZ
+327,"Red Hat, Inc.",89,NC
+328," Box, Inc.",89,CA
+329,Dell Products L.P.,89,TX
+330,"CBRE, INC.",89,TX
+331,"Intuitive Surgical Operations, Inc.",89,CA
+332,"NAGARRO, INC",89,CA
+333,Sapient Corporation,88,MA
+334,Softworld Technologies LLC,88,TX
+335,Total System Services LLC,88,GA
+336,"SS&C Technologies, Inc.",88,CT
+337,Genesis Corp,87,NY
+338,Synchrony Bank,87,CT
+339,"Xilinx, Inc.",86,CA
+340,"Ameriprise Financial, Inc. ",86,MN
+341,L&T Technology Services Limited,86,NJ
+342,The Sherwin-Williams Company,86,OH
+343,Safeway Inc.,86,CA
+344,Archer Daniels Midland Company ,85,IL
+345,"Affirm, Inc.",85,CA
+346,SDVS Technologies LLC,85,TX
+347,"Motorola Solutions, Inc.",85,IL
+348,New York Life Insurance Company,85,NY
+349,Capital Group Companies Global,85,CA
+350,SKILLTUNE TECHNOLOGIES INC,84,NJ
+351,"Samsung Semiconductor, Inc.",84,CA
+352,"Ana-Data Consulting, Inc.",84,NJ
+353,EFICENS SYSTEMS INC,83,GA
+354,"Ventois, Inc",83,MA
+355,"LexisNexis Risk Solutions, Inc.",83,GA
+356,Deloitte Services LP,83,PA
+357,"Okta, Inc. ",83,CA
+358,"C3.ai, Inc.",82,CA
+359,PIONEER CONSULTING LLC,82,IA
+360,"Moody's Investors Service, Inc.",82,NY
+361,Zurich American Insurance Company,82,IL
+362,INFOSTRETCH CORPORATION,82,MI
+363,"Datadog, Inc.",82,NY
+364,MANKIND AMERICA LLC,81,IL
+365,Altimetrik Corp.,81,MI
+366,The Travelers Indemnity Company,81,CT
+367,"athenahealth, Inc.",81,MA
+368,Maplebear Inc.,80,CA
+369,Annapurna Labs (U.S.) Inc.,80,WA
+370,"Blue Yonder, Inc.",80,AZ
+371,Zoox Inc.,80,CA
+372,"Gilead Sciences, Inc.",79,CA
+373,Sysintelli Inc.,79,VA
+374,Electronic Arts Inc.,79,CA
+375,LTIMINDTREE Limited,78,NJ
+376,"Northstar Group, Inc",78,MD
+377,Metrix IT Solutions INC,78,NC
+378,Deloitte & Touche LLP,77,PA
+379,"WarnerMedia Services, LLC",77,NY
+380,"Equinix, Inc.",77,CA
+381,The Options Clearing Corporation,77,IL
+382,"American Family Mutual Insurance Company, S.I.",77,WI
+383,DONATO TECHNOLOGIES INC,76,TX
+384,Innovative Consulting Solutions LLC,76,IL
+385,Credit Karma LLC,76,CA
+386,"CrowdStrike, Inc.",76,CA
+387,Progressive Casualty Insurance Company,76,OH
+388,INTELIROUTE TECHNOLOGIES LLC,76,IA
+389,"Rivian Automotive, LLC",76,CA
+390,ABBVIE INC.,76,IL
+391,"Saipsit, Inc.",75,TX
+392,Safeway Inc. ,75,CA
+393, Axtria INC,75,NJ
+394,"Western Digital Technologies, Inc.",75,CA
+395,Meijer Great Lakes Limited Partnership,74,MI
+396,TECHNOSOFT CORPORATION,74,MI
+397,"Oracle Financial Services Software, Inc.",74,NJ
+398,WIPRO LIMITED,74,NJ
+399,"General Motors Financial Company, Inc.",73,TX
+400,"HM Health Solutions, Inc.",73,PA
+401,Starbucks Coffee Company,73,WA
+402,McDonald's Corporation,73,IL
+403,KLA Corporation,73,CA
+404,Infogain Corporation,73,CA
+405,"DATAEDGE, INC",73,IL
+406,"Chime Financial, Inc.",73,CA
+407,"KPIT Technologies, Inc.",73,MI
+408,Strategic Resources International Inc,73,NJ
+409,"MUFG Bank, Ltd.",72,NY
+410,Laboratory Corporation of America Holdings,72,NC
+411,Itek Info Inc,72,TX
+412,"MACY'S SYSTEMS & TECHNOLOGY, INC.",72,GA
+413,Mutual of Omaha Insurance Company,71,NE
+414,"CLOUDFLARE, INC.",71,CA
+415,XORIANT CORPORATION,71,CA
+416,"Zions Bancorporation, N.A.",71,UT
+417,ARTIFINT TECHNOLOGIES LLC,71,TX
+418,PERSISTENT SYSTEMS LIMITED,71,CA
+419,"Megan Soft, Inc.",71,MI
+420,"COPART, INC",71,TX
+421,"AutoZone, Inc.",71,TN
+422,"Applied Intuition, Inc.",70,CA
+423,"Micron Technology, Inc.",70,ID
+424,BILL Operations LLC,70,CA
+425,INFOSYS LIMITED,70,TX
+426,"People Center, Inc. d/b/a Rippling",70,CA
+427,"Environmental Systems Research Institute, Inc.",70,CA
+428,"Duolingo, Inc.",69,PA
+429,LatentView Analytics Corporation,69,NJ
+430,"i-Link Solutions, Inc.",69,VA
+431,"Akkodis, Inc.",69,MI
+432,University of Michigan,69,MI
+433,Cruise LLC,69,CA
+434,Headstrong Services LLC,68,NJ
+435,APPLAB SYSTEMS INC,68,NJ
+436,Ancestry.com Operations Inc.,68,UT
+437,"Wolters Kluwer DXG U.S., Inc.",68,IL
+438,"Cox Automotive Corporate Services, LLC",68,GA
+439,City National Bank,68,CA
+440,ROBERT BOSCH LLC ,67,MI
+441,Camelot Integrated Solutions Inc,67,TX
+442,ATOS SYNTEL INC,67,MI
+443,COMTEC CONSULTANTS INC,67,TX
+444,"Dexian, LLC",67,VA
+445,Zeus Solutions Inc,67,TX
+446,Vertex Pharmaceuticals Incorporated,66,MA
+447,IMR SOFT LLC,66,NJ
+448,"MCKINSEY & COMPANY, INC. UNITED STATES",66,NY
+449,The Huntington National Bank,66,OH
+450,"APPTRICS, LLC",66,GA
+451,Raas Infotek LLC,66,DE
+452,"Zoox, Inc.",66,CA
+453,NEO PRISM SOLUTIONS LLC,66,TX
+454,"Klaviyo, Inc.",66,MA
+455,Orpine Inc,66,GA
+456,KASTECH SOLUTIONS LLC,66,TX
+457,"PYRAMID TECHNOLOGY SOLUTIONS, INC",65,IN
+458,"TriNet USA, Inc.",65,CA
+459,DISH Network LLC,65,CO
+460,Lex Nimble Solutions Inc.,65,IL
+461,TABNER INC,65,NC
+462,Ally Bank,65,MI
+463,Fidelity Brokerage Services LLC d/b/a Fidelity Investments,64,MA
+464,"Omnissa, LLC",64,CA
+465,EPSoft Technologies LLC,64,TX
+466,IQVIA Inc.,64,NC
+467,"Western Union, LLC",64,CO
+468,"Technumen, Inc.",64,NJ
+469,"ZoomInfo Technologies, LLC",64,WA
+470,Tekaccel Inc,64,TX
+471,"NTT DATA Americas, Inc.",64,TX
+472,TANISHA SYSTEMS INC,64,NJ
+473,Mindlance Inc.,64,NJ
+474,ST. JUDE CHILDREN'S RESEARCH HOSPITAL,64,TN
+475,"Twitch Interactive, Inc.",63,WA
+476,Mygo Consulting Inc.,63,IL
+477,"Marriott International, Inc.",63,MD
+478,American Express Company,63,NY
+479,Penske Truck Leasing Co LP,63,PA
+480,Schlumberger Technology Corporation,63,TX
+481,SOPHLOGIC GLOBAL LLC.,63,CA
+482,DOTCOM TEAM LLC,62,MA
+483,CODE TECH INC,62,MI
+484,"The Leland Stanford, Jr University",62,CA
+485,Genuine Parts Company,62,GA
+486,Federal Soft Systems Inc.,62,AR
+487,"Upstart Network, Inc.",62,CA
+488,Visionet Systems Inc,62,NJ
+489,"Dropbox, Inc.",61,CA
+490,eClinicalWorks LLC,61,MA
+491,Tek Leaders Inc,61,TX
+492,Garmin International Inc.,61,KS
+493,"Medtronic, Inc.",61,MN
+494,The Kroger Company,61,OH
+495,"Cohesity, Inc.",61,CA
+496,Unity Technologies SF,61,CA
+497,"Riot Games, Inc.",60,CA
+498,KINGSTON TECHNOLOGIES INC,60,TX
+499,Gen Digital Inc.,60,AZ
+500,Gap Inc.,60,CA

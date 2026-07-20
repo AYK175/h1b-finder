@@ -1,0 +1,10 @@
+data/raw/*
+!data/raw/manifest.json
+data/parquet/
+data/cache/
+data/spike/ats_cache/
+*.duckdb
+.env
+.DS_Store
+__pycache__/
+*.pyc

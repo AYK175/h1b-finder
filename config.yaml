@@ -1,0 +1,41 @@
+target_soc_codes:
+  - "15-2051"
+  - "15-1252"
+  - "15-1221"
+  - "15-2041"
+  - "15-1243"
+paths:
+  raw: data/raw
+  parquet: data/parquet
+  db: data/h1b.duckdb
+ingest:
+  fiscal_years: [2025, 2026]
+  case_statuses_positive: ["Certified", "Certified - Withdrawn"]
+capexempt:
+  off_cycle_window: ["09-25", "10-08"]
+  off_cycle_min_n: 10
+  off_cycle_min_ratio: 0.70
+scoring:
+  version: "v0.1.0"
+  weights:
+    sponsor: 1.0
+    cap_exempt: 1.0
+    lottery_tickets: 1.0
+    fit: 1.0
+    green_card: 1.0
+    staffing_firm: 1.0
+wage:
+  year: "2026-2027"
+jobs:
+  adzuna:
+    role_queries: ["data scientist", "software engineer", "machine learning"]
+    top_sponsors_n: 250
+    cap_exempt_min_score: 0.5
+    req_per_sec: 3.0
+  ats:
+    req_per_sec: 2.0
+    consecutive_failures_limit: 5
+  soc_predict:
+    embedding_min_confidence: 0.55
+    haiku_batch_size: 20
+    haiku_model: "claude-haiku-4-5-20251001"
