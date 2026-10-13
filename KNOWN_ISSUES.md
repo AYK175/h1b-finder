@@ -219,7 +219,12 @@ All 11,224 postings now non-null (was 0). PERM ingested from FY2025 Q4 + FY2026 
 schemas reconciled. Caught+fixed a row_hash bug mid-ingest (LCA's case-number-excluding hash
 collapsed ~24% of distinct PERM cases; now keyed correctly). BUT see two caveats below.
 
-**[P1] lca_certified_24mo is actually LIFETIME/unbounded — pre-existing naming bug, untouched.**
+**[SUPERSEDED — code now fixed, see note] lca_certified_24mo is actually LIFETIME/unbounded — pre-existing naming bug, untouched.**
+Code check (2026-10-13): `build_employer_profile()` in src/h1b_finder/pipeline.py now computes
+lca_certified_24mo as a true rolling 24-month count by decision_date anchored on MAX(decision_date)
+(CTEs `ref_date` / `windowed_certified`), so the "Fix" below has been applied in code. The
+perm_to_lca_ratio re-derive and sponsor_score recency audit were not verified from code alone;
+data-derived consequences below are left as originally written.
 The column named "24mo" counts all-time LCA certifications, not a 24-month window. Consequences:
 (a) perm_to_lca_ratio is structurally depressed for everyone (thin ~1.5yr PERM window ÷ unbounded
     LCA count); (b) any recency logic relying on this column — possibly sponsor_score's recency
