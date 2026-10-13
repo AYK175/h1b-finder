@@ -1,3 +1,5 @@
+import json
+from datetime import UTC, datetime
 from pathlib import Path
 
 import typer
@@ -5,6 +7,7 @@ import typer
 from h1b_finder import pipeline
 from h1b_finder.capexempt import evidence as capexempt_evidence
 from h1b_finder.config import ROOT, Secrets, load_config
+from h1b_finder.dashboard_common import BASE_QUERY, SCORING_VERSION
 from h1b_finder.db import connect
 from h1b_finder.ingest import institutions
 from h1b_finder.jobs import adzuna as adzuna_mod
@@ -95,6 +98,52 @@ def export_sponsors():
     out = ROOT / "sponsors.csv"
     n = pipeline.export_sponsors_csv(con, out)
     typer.echo(f"wrote {out} ({n} employers)")
+
+
+@export_app.command("snapshot")
+def export_snapshot():
+    """Export the current ranked view to public/*.parquet + meta.json for
+    app_public.py (the shared read-only dashboard). Commit + push the
+    public/ dir afterward to refresh what viewers see — this does not run
+    automatically."""
+    cfg = load_config()
+    con = connect(cfg.db_path)
+
+    out_dir = ROOT / "public"
+    out_dir.mkdir(exist_ok=True)
+
+    jobs = con.execute(BASE_QUERY).pl()
+    jobs.write_parquet(out_dir / "jobs.parquet")
+    typer.echo(f"wrote public/jobs.parquet ({jobs.height} postings)")
+
+    employer_ids = jobs.filter(jobs["cap_exempt_score"].fill_null(0) > 0)["employer_id"].unique().to_list()
+    if employer_ids:
+        placeholders = ",".join("?" * len(employer_ids))
+        evidence = con.execute(
+            f"""SELECT employer_id, evidence_type, confidence, detail
+                FROM cap_exempt_evidence WHERE employer_id IN ({placeholders})
+                ORDER BY confidence DESC""",
+            employer_ids,
+        ).pl()
+    else:
+        evidence = con.execute(
+            "SELECT employer_id, evidence_type, confidence, detail FROM cap_exempt_evidence WHERE FALSE"
+        ).pl()
+    evidence.write_parquet(out_dir / "evidence.parquet")
+    typer.echo(f"wrote public/evidence.parquet ({evidence.height} rows)")
+
+    scored_at = con.execute(
+        f"SELECT MAX(scored_at) FROM job_score WHERE scoring_version = '{SCORING_VERSION}'"
+    ).fetchone()[0]
+    horizon = con.execute("SELECT MAX(decision_date) FROM lca_case").fetchone()[0]
+    meta = {
+        "scored_at": str(scored_at),
+        "lca_horizon": str(horizon),
+        "exported_at": datetime.now(UTC).replace(tzinfo=None).isoformat(timespec="minutes"),
+    }
+    (out_dir / "meta.json").write_text(json.dumps(meta, indent=2))
+    typer.echo(f"wrote public/meta.json ({meta})")
+    typer.echo("Now: git add public/ && git commit && git push to refresh the public dashboard.")
 
 
 @capexempt_app.command("build")

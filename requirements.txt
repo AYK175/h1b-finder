@@ -1,0 +1,8 @@
+# Minimal deps for the PUBLIC read-only dashboard (app_public.py) only,
+# used by Streamlit Community Cloud's auto-detected build. The full local
+# tool's dependencies live in pyproject.toml — intentionally not reused
+# here, since the public app never touches DuckDB, httpx, rapidfuzz, or
+# the Anthropic SDK.
+streamlit>=1.38
+polars>=1.0
+pyarrow>=16.0
