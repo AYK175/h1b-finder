@@ -193,6 +193,12 @@ assoc). token_set_ratio collides constantly at BMF's 15k scale. Fable DISABLED f
 BMF evidence (EIN + exact-name only, 543/676 survive) per the human-in-loop rule. Correct call —
 precision over recall is right for a cap-exempt flag. Residual: real BMF matches that need fuzzy are
 now missed; revisit with a better discriminator if the hospital/nonprofit coverage feels thin.
+CODE CHECK (2026-10-14): the loader (`load_irs_bmf` in ingest/institutions.py) and the
+`enable_fuzzy=False` option on `match_registry()` (capexempt/evidence.py) exist, but the committed
+`h1b capexempt build` CLI (cli.py) only calls `match_registry` for IPEDS and FFRDC and still prints
+"Deferred ... IRS BMF". The BMF match with fuzzy disabled is therefore not reproducible from the CLI
+as committed (it was presumably run ad hoc). Re-running `capexempt build` will not regenerate the
+BMF evidence rows; wire a BMF `match_registry(..., enable_fuzzy=False)` call in before relying on it.
 
 **[RESOLVED — not a bug] PERM "entity-resolution miss" was a data-coverage gap.**
 Investigated: the 2 loaded PERM files genuinely have zero Google rows — only "Google Public Sector
