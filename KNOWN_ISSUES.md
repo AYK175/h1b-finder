@@ -155,7 +155,7 @@ genuine missing places (Foster City etc.) — solved via nearest-ZCTA-centroid H
 Census Places + ZCTA gazetteers, local, no API. area_code 3,819→5,419. Remaining 26% unresolved is
 the honest floor: "US"/"Remote"/"Hybrid" with no location, or foreign cities with no US OFLC area.
 
-**[SUPERSEDED — see "staffing demotion now live" above] staffing_firm_score wired into sort.**
+**[SUPERSEDED — see "staffing demotion now live" below] staffing_firm_score wired into sort.**
 Wired two batches ago but inert (cap_exempt_score continuous → no ties → tiebreaker never engaged).
 Now live after off_cycle removed from sort. Also fixed here: view was reading a never-populated
 employer_h1b_profile.staffing_firm_score (same bug class as cap_exempt no-op); added a real
