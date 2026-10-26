@@ -146,6 +146,9 @@ RECOMMENDED FIX: exclude off_cycle_filings from cap_exempt_score's SORT contribu
 it as a displayed evidence tag only. Real cap-exempt employers still rank right (ipeds/ffrdc score
 >=0.95, don't need off_cycle). Do NOT just lower weight / raise n-guard — that quiets noise without
 making the signal meaningful for ranking.
+CODE CHECK (2026-10-26): the recommended fix is in place — see "[DONE] off_cycle_filings removed from
+the ranking sort" below. `cap_exempt_score_sort` exists in schema.sql and pipeline.py's
+build_employer_profile(), and v_ranked_jobs sorts on it. This entry is the original diagnosis, retained.
 
 **[DONE] Location resolution — Gazetteer + parsing fixes. Coverage 40%→51% target-SOC.**
 The 1,770 failures were 3 separate problems: (a) regex rejected full state names ("...California")
