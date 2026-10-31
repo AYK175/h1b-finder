@@ -329,6 +329,12 @@ harness (script execution, not just HTTP 200) — caught one real bug this way: 
 cap-subject section-visibility conditional was inverted (checking "cap-exempt only" hid the
 cap-exempt section and left the empty cap-subject one), fixed and re-verified. Run via
 `uv run streamlit run src/h1b_finder/app.py` (added `streamlit>=1.38` to pyproject + uv.lock).
+CODE CHECK (2026-10-31): the filter/sort/card-rendering logic described above now lives in the
+shared `src/h1b_finder/dashboard_common.py` (imported by `app.py`); `app.py` retains the DuckDB
+connection and the `application` tracker upsert. A read-only `src/h1b_finder/app_public.py` was also
+added — it reads a static snapshot from `h1b export snapshot` (no DB, no tracker) for Streamlit
+Community Cloud. Behavior described above (cap_exempt_score_sort badge/sort, NULL-ticket "not scored"
+text, text-matched remote filter) is still present.
 
 ---
 
