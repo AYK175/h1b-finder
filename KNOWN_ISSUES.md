@@ -88,6 +88,12 @@ normalize_employer_name() expanded tech→technologies, corrupting proper-noun s
 ("Virginia Tech" → "virginia technologies"). Fixed in Phase 4 Stop 2; verified zero regressions
 on existing Phase 1 matches (3+ word legal names like "Texas Tech University" normalize
 unchanged; only the bare 2-word nickname was affected). Marked DONE.
+CODE CHECK (2026-11-04): the fix is still present (`_TECH_NICKNAME_EXEMPT` in resolve/normalize.py,
+tests in tests/test_normalize.py), but it is an exact-match exemption on the bare 2-word phrase only.
+Running the current code, "Texas Tech University" normalizes to "texas technologies university" and
+"Georgia Tech Research Corporation" to "georgia technologies research" — so the "3+ word legal names
+normalize unchanged" statement above does NOT hold. Both sides are normalized the same way so exact
+matching is consistent, but fuzzy matches against the un-expanded nickname form can miss.
 
 **[P3] "Certified - Withdrawn" status string had spaces (fixed in Phase 1).**
 config.yaml originally had "Certified-Withdrawn" (no spaces); real value has spaces around the
